@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-1 {
+  padding: 45px; ;
+  position: relative;
+  background-image: url("Mask\ Group\ 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: center;
+}
+
+
+
+.navbar.navbar-expand-lg.bg-body-tertiary.sticky-top {
+  padding: 25px 0px 0px 0px;
+}
+
+.section-2 h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.section-2 h3{
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+    color: #3a4348;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+    display: block;
+      /* font-size: 1.17em; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.metrics {
+  position: relative;
+}
+
+.img-fluid.metrics-icon {
+  position: absolute;
+  left: 31%;
+  bottom: 34%;
+}
+
+.section-3 h1 {
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+font-size: 40px;
+font-weight: 400;
+margin-bottom: 1.5rem;
+}
+
+.section-3 p {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin-top: 5rem;
+}
+
+.section-3 {
+  background-image: url("Rectangle\ 3.png");
+  padding: 80px;
+}
+
+.section-4 {
+  background-image: url("Mask\ Group\ 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 120px;
+}
+
+.section-5 h1 {
+  text-align: center;
+  color: #4b5877;
+}
+
+.section-6 {
+  background-color: #f3f3f3;
+  padding: 70px;
+}
+
+.section-6 h1 {
+  text-align: center;
+}
+
+footer {
+  background-color: #16459f;
+  padding: 20px;
+}
+
+.section-6 .row {
+  margin-top: 10rem;
+
+}
+
+p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .section-1 {
+    background-color: #98abb6;
+    padding: 0px 0px;
+    background-image:none
+  }
+
+  .section-4 {
+    padding: 0px;
+    background-image: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .section-3 {
+    background-image: url("Rectangle\ 3.png");
+    padding: 10px;
+  }
+
+  .section-4 .btn.btn-info.rounded-pill.p-3.mt-5 {
+    margin-bottom: 60px;
+  }
+
+  .btn.btn-info.rounded-pill.p-3.mt-5 {
+    margin: 2rem auto ;
+    display: flex;
+  }
+
+  .section-1 img {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+    padding: 20px 0px;
+  }
+
+  .img-fluid.metrics-background {
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  .img-fluid.metrics-icon {
+    position: absolute;
+    left: 44%;
+    bottom: 37%;
+    width: 10%;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .section-6 img {
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+  }
+
+}
