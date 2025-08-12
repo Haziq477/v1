@@ -6,7 +6,7 @@ p {
 }
 
 .section-1 {
-  padding: 45px; ;
+  padding: 45px;
   position: relative;
   background-image: url("Mask\ Group\ 1.png");
   background-size: contain;
@@ -17,8 +17,8 @@ p {
 
 
 
-.navbar.navbar-expand-lg.bg-body-tertiary.sticky-top {
-  padding: 25px 0px 0px 0px;
+.navbar.navbar-expand-lg.sticky-top {
+  padding: 25px 0 0 0;
 }
 
 .section-2 h1 {
